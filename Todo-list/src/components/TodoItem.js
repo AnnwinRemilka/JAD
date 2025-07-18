@@ -3,7 +3,7 @@ import React from 'react';
 const TodoItem = ({ todo, onRemove }) => (
   <div style={styles.item}>
     <span>{todo}</span>
-    <button style={styles.button} onClick={onRemove}>Remove</button>
+    <button style={styles.button} onClick={onRemove}>X</button>
   </div>
 );
 
@@ -19,10 +19,10 @@ const styles = {
     boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
   },
   button: {
-    background: '#ff5252',
+    background: '#fc0303',
     color: '#fff',
     border: 'none',
-    borderRadius: '5px',
+    borderRadius: '20px',
     padding: '5px 10px',
     cursor: 'pointer',
   },
